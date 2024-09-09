@@ -1,0 +1,41 @@
+
+$bg-gradient:linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+.dash-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+.header{
+    margin-top: 150px;
+    background: $bg-gradient;
+color: #ffffff;
+padding:  25px;
+border-radius: 10px;
+}
+.logo{
+    width: 24%;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 438px;
+}
+.bell-icon{
+        margin-top: -59px;
+    margin-left: 652px;
+}
+.fixed-sidebar{
+    position: fixed;
+    z-index: 3;
+}
+.fixed-navbar{
+    position: fixed;
+}
+.fixed-style{
+    background-color: white;
+  
+    top: 0;
+    max-width: 1617px !important;
+    right: 0;
+    left: 303px !important;
+    z-index: 1030;
+}

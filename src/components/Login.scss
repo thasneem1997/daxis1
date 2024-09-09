@@ -1,0 +1,53 @@
+
+$b-color:#0b53b9;
+$title-weight:700;
+
+form{
+text-align: center;
+margin: 0 auto;
+padding-top:  150px;
+}
+@mixin btnstyle{
+    background-color: $b-color;
+
+    border: 1px solid transparent;
+    border-radius: .3rem;
+   
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+   
+    width: 68%;
+
+    line-height: 1.5rem;
+    padding: 0.70rem 1rem;
+ 
+  
+}
+button{
+    @include btnstyle;
+}
+a{
+    color: $b-color;
+    text-decoration: none;
+    font-weight: $title-weight;
+
+}
+.inputstyle{
+  width: 68%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]{
+    @extend .inputstyle
+  }
+  input[type=password]{
+    @extend .inputstyle
+  }
+  input[type=email]{
+    @extend .inputstyle
+  }

@@ -1,0 +1,71 @@
+@import './Dashboard.scss';
+.sidebar{
+    background: $bg-gradient;
+    color:white;
+   
+}
+.list-style{
+   
+    background: none !important;
+    color: white !important;
+    border: none !important;
+    margin-left: -16px !important;
+}
+.header-container{
+    display: flex;
+    margin-top: 16px;
+    margin-left: -15px;
+    gap: 10px;
+}
+.icon-menu{
+  display: none;
+
+}
+.show-menu {
+  display: none !important; 
+}
+
+.hide-menu {
+  display: block !important; 
+}
+@media (min-width: 992px) {
+    .fixed-sidebar {
+      position: fixed; 
+      width: 20%; 
+      height: 100vh; 
+      overflow-y: auto; 
+    }
+  }
+  @media (max-width: 768px) {
+    .fixed-sidebar {
+        position: fixed !important; 
+      width: 35% !important; 
+      height: 100vh !important; 
+      
+    }
+    .media{
+      width: 28% !important;
+        margin: 12px -2px !important;
+    }
+    .logo{
+        
+      width: 14% !important;
+      height: 38px !important;
+      margin-top: -100px !important;
+      margin-left: 222px !important;
+    }
+    .card3{
+        margin-top: 116px !important;
+    }
+    .list-group{
+      display:none !important;
+    }
+    .icon-menu{
+      display: block;
+    
+    }
+    .show-menu {
+      display: block !important;
+    }
+    
+  }
