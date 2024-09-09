@@ -19,13 +19,14 @@ function Dashboard() {
   });
 
   return (
-    <>
-      <div className="row  bg-white text-dark">
+    <div>
+  
+      <div className="row  bg-white text-dark d-flex-mobile ">
         <div className="col-md-2 fixed-sidebar">
 
           <Sidebar />
         </div>
-        <div className="col-md-10" style={{marginLeft:'313px',marginTop:'21px'}}>
+        <div className="col-md-10 media-10">
           <Container className="fixed-top fixed-style">
             <Row>
               <Col>
@@ -59,7 +60,7 @@ function Dashboard() {
       </div>
 
      
-    </>
+    </div>
   );
 }
 

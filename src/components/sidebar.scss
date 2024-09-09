@@ -17,6 +17,11 @@
     margin-left: -15px;
     gap: 10px;
 }
+
+.media-10{
+  margin-left:313px ;
+  margin-top:21px ;
+}
 .icon-menu{
   display: none;
 
@@ -37,22 +42,17 @@
     }
   }
   @media (max-width: 768px) {
-    .fixed-sidebar {
-        position: fixed !important; 
-      width: 35% !important; 
-      height: 100vh !important; 
-      
-    }
+   
     .media{
-      width: 28% !important;
-        margin: 12px -2px !important;
+             width: 27% !important;
+        margin: 17px -83px !important;
     }
     .logo{
         
-      width: 14% !important;
+      width: 20% !important;
       height: 38px !important;
-      margin-top: -100px !important;
-      margin-left: 222px !important;
+      margin-top: -106px !important;
+      margin-left: 138px !important;
     }
     .card3{
         margin-top: 116px !important;
@@ -66,6 +66,21 @@
     }
     .show-menu {
       display: block !important;
+    }
+    .d-flex-mobile{
+      display: flex;
+      justify-content: center;
+    }
+    .small-style{
+      background: black;
+      width: 57% !important;
+    
+    }
+    .header {
+      margin-top: 232px !important;
+    }
+    .media-10{
+      padding: 20px;
     }
     
   }

@@ -12,13 +12,13 @@ function Sidebar() {
   const user = JSON.parse(localStorage.getItem("loggedInUser")); 
   const [isMenuOpen, setMenuOpen] = useState(false); 
 
-  const toggleMenu = (e) => {
+  const toggleMenu = () => {
     setMenuOpen(!isMenuOpen); 
   };
 
   return (
     <div
-      className="shadow-sm p-4 sidebar rounded"
+      className="shadow-sm p-4 sidebar rounded small-style"
       style={{ marginTop: "28px", marginLeft: "20px" }}
     >
       <div className="header-container">
@@ -27,7 +27,7 @@ function Sidebar() {
         <GiHamburgerMenu
           style={{ marginTop: "-4px", marginLeft: "19px" }}
           className="icon-menu"
-          size={50}
+          size={20}
           onClick={toggleMenu}
         />
       </div>
